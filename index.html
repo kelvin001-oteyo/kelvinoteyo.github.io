@@ -55,5 +55,50 @@
     <section class="contact">
         <p>📩 <a href="mailto:oteyikelvin@gmail.com">oteyikelvin@gmail.com</a></p>
     </section>
+    <section class="portfolio">
+    <h2>My Work</h2>
+    <div class="gallery">
+        <div class="work">
+            <img src="design1.jpg" alt="Design 1">
+            <p>Project Name 1</p>
+        </div>
+        <div class="work">
+            <img src="design2.jpg" alt="Design 2">
+            <p>Project Name 2</p>
+        </div>
+        <div class="work">
+            <img src="design3.jpg" alt="Design 3">
+            <p>Project Name 3</p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .portfolio {
+        margin-top: 50px;
+    }
+    .portfolio h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .gallery {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .work {
+        width: 300px;
+    }
+    .work img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .work p {
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+</style>
+
 </body>
 </html>
