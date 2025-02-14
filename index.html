@@ -5,22 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelvin Oteyo - Portfolio</title>
     <style>
-        body {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: #ffffff;
             text-align: center;
             padding: 50px;
-            background-color: #f4f4f4;
         }
-        h1 {
-            color: #333;
+        header {
+            padding: 20px;
         }
-        p {
-            color: #555;
+        .hero {
+            margin-top: 50px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #bdbdbd;
+        }
+        .logo {
+            width: 150px;
+            margin-top: 20px;
+        }
+        .contact {
+            margin-top: 50px;
+            font-size: 1.1rem;
+        }
+        .contact a {
+            color: #4caf50;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Coming soon...</p>
+    <header>
+        <img src="logo.png" alt="Kelvin Oteyo Logo" class="logo">
+    </header>
+    <section class="hero">
+        <h1>Kelvin Oteyo</h1>
+        <p>Graphic Designer | Creative Thinker</p>
+    </section>
+    <section class="contact">
+        <p>📩 <a href="mailto:oteyikelvin@gmail.com">oteyikelvin@gmail.com</a></p>
+    </section>
 </body>
 </html>
