@@ -241,6 +241,51 @@
         background: #45a049;
     }
 </style>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a project in mind? Let’s connect!</p>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<style>
+    #contact {
+        text-align: center;
+        padding: 50px;
+        background: #111;
+        color: white;
+    }
+    form {
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: none;
+    }
+    button {
+        padding: 10px;
+        background: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    button:hover {
+        background: #45a049;
+    }
+</style>
+
+    
 
 
 </body>
