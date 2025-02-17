@@ -141,6 +141,55 @@
             text-decoration: none;
         }
     </style>
+
+    <header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#socials">Socials</a></li>
+            <li><a href="#seo">SEO</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+        <style>
+            nav {
+    background-color: #222; /* Dark theme */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00ffcc; /* Highlight effect */
+}
+
+        </style>
+</header>
+
 </head>
   
     
@@ -199,7 +248,7 @@
         font-size: 1.1rem;
     }
 </style>
-      <section id="about">
+      <section id="skills">
     <div class="about-content">
         <h1>Hi, I'm Kelvin Oteyo</h1>
         <p>A passionate <span class="highlight">Graphic Designer</span> and <span class="highlight">Creative Thinker</span>, crafting stunning visuals and user-friendly designs. Let’s bring ideas to life!</p>
@@ -282,7 +331,7 @@
 </style>
 
 
-    <section class="resume">
+    <section id="resume" class="resume">
     <h2>Download My Resume</h2>
     <a href="resume.pdf" download class="btn">Download Resume</a>
 </section>
@@ -306,10 +355,11 @@
         background: #45a049;
     }
 </style>
-     <p>Check out my latest design projects.</p>
+   
     </header>
-
-    <section class="portfolio">
+ 
+    <section class="portfolio" id ="portfolio">
+         <p>Check out my latest design projects.</p>
         <div class="category">
             <h2>Logos</h2>
             <div class="portfolio-item">
