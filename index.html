@@ -248,15 +248,35 @@ nav ul li a:hover {
         font-size: 1.1rem;
     }
 </style>
-      <section id="skills">
-    <div class="about-content">
-        <h1>Hi, I'm Kelvin Oteyo</h1>
-        <p>A passionate <span class="highlight">Graphic Designer</span> and <span class="highlight">Creative Thinker</span>, crafting stunning visuals and user-friendly designs. Let’s bring ideas to life!</p>
-        <a href="#projects" class="cta-btn">View My Work</a>
+    <section id="skills">
+    <div class="skills-container">
+        <img src="your-image.jpg" alt="Kelvin Oteyo" class="profile-pic">
+        <div class="about-content">
+            <h1>Hi, I'm Kelvin Oteyo</h1>
+            <p>A passionate <span class="highlight">Graphic Designer</span> and <span class="highlight">Creative Thinker</span>, crafting stunning visuals and user-friendly designs. Let’s bring ideas to life!</p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
     </div>
 </section>
-
 <style>
+    .skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-content {
+    max-width: 60%;
+}
+
     #about {
         text-align: center;
         padding: 60px 20px;
