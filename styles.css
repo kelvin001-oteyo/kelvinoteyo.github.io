@@ -46,7 +46,6 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     margin-top: 50px;
-    padding: 20px;
 }
 
 .hero h1 {
@@ -58,35 +57,15 @@ nav ul li a:hover {
     color: #bdbdbd;
 }
 
-.logo {
-    width: 150px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
-
-/* Contact */
-.contact {
-    margin-top: 50px;
-    font-size: 1.1rem;
-}
-
-.contact a {
-    color: #4caf50;
-    text-decoration: none;
-}
-
-/* Portfolio */
+/* Portfolio Section */
 .portfolio {
     margin-top: 50px;
-    text-align: center;
 }
 
 .portfolio h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #4caf50;
+    color: #4CAF50;
 }
 
 .gallery {
@@ -109,46 +88,12 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-.work p {
-    margin-top: 10px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #ffffff;
-}
-
 .work:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.6);
 }
 
-/* Skills */
-#skills {
-    text-align: center;
-    padding: 50px;
-    background: #111;
-    color: white;
-}
-
-.skill-bar {
-    margin: 10px 0;
-}
-
-.progress {
-    width: 80%;
-    max-width: 400px;
-    background: #444;
-    height: 10px;
-    margin: auto;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress-fill {
-    height: 100%;
-    background: #4CAF50;
-}
-
-/* Resume */
+/* Resume Button */
 .resume {
     text-align: center;
     margin-top: 50px;
@@ -188,9 +133,8 @@ input, textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background: #222;
+    border-radius: 5px;
     border: none;
-    color: white;
 }
 
 button {
@@ -198,111 +142,10 @@ button {
     background: #4CAF50;
     color: white;
     border: none;
-    cursor: pointer;
-    transition: 0.3s;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
 button:hover {
     background: #45a049;
 }
-
-/* ──────────────────── */
-/* RESPONSIVE DESIGN   */
-/* ──────────────────── */
-
-/* Tablets and Smaller Screens */
-@media (max-width: 768px) {
-    body {
-        padding: 30px;
-    }
-
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 10px;
-    }
-
-    nav ul li {
-        margin: 5px;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-    .gallery {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .work {
-        width: 90%;
-        max-width: 400px;
-    }
-}
-
-/* Mobile Screens */
-@media (max-width: 480px) {
-    body {
-        padding: 20px;
-    }
-
-    nav {
-        padding: 10px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero p {
-        font-size: 0.9rem;
-    }
-
-    .logo {
-        width: 120px;
-    }
-
-    .gallery {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .work {
-        width: 100%;
-        max-width: 350px;
-    }
-
-    .contact {
-        font-size: 1rem;
-    }
-
-    .btn {
-        padding: 8px 16px;
-        font-size: 1rem;
-    }
-
-    form {
-        max-width: 100%;
-    }
-
-    input, textarea {
-        font-size: 1rem;
-    }
-}
-
