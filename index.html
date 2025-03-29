@@ -4,743 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelvin Oteyo - Portfolio</title>
-    <style>
-
-        /* Make the social icons section stand out */
-#socials {
-    padding: 50px 0;
-    background: linear-gradient(45deg, #0f0f0f, #222);
-    border-top: 2px solid #444;
-}
-
-/* Style for social media icons */
-.social-icons a img {
-    width: 50px;
-    height: 50px;
-    transition: all 0.3s ease-in-out;
-    border-radius: 50%;
-    padding: 5px;
-    background: white;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.3);
-    background: #4CAF50;
-}
-
-/* Resume Button Styling */
-.resume-btn {
-    display: inline-block;
-    padding: 12px 20px;
-    margin-top: 10px;
-    font-size: 18px;
-    color: white;
-    background: #4CAF50;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.resume-btn:hover {
-    background: #45a049;
-}
-
-
-            .portfolio {
-        margin-top: 50px;
-        text-align: center;
-    }
-    .portfolio h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #4caf50;
-    }
-    .gallery {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        padding: 20px;
-    }
-    .work {
-        width: 300px;
-        border-radius: 10px;
-        overflow: hidden;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .work img {
-        width: 100%;
-        border-radius: 10px;
-    }
-    .work p {
-        margin-top: 10px;
-        font-size: 1.1rem;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .work:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.6);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            text-align: center;
-            padding: 50px;
-        }
-        header {
-            padding: 20px;
-        }
-        .hero {
-            margin-top: 50px;
-        }
-        .hero h1 {
-            font-size: 2.5rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            color: #bdbdbd;
-        }
-        .logo {
-            width: 150px;
-            margin-top: 20px;
-            border-radious:50%;
-        }
-        .contact {
-            margin-top: 50px;
-            font-size: 1.1rem;
-        }
-        .contact a {
-            color: #4caf50;
-            text-decoration: none;
-        }
-    </style>
-
-    <header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#socials">Socials</a></li>
-            <li><a href="#seo">SEO</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
-    </nav>
-
-        <style>
-            nav {
-    background-color: #222; /* Dark theme */
-    padding: 15px;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav ul li a:hover {
-    color: #00ffcc; /* Highlight effect */
-}
-
-        </style>
-</header>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
-  
-    
 <body>
     <header>
-        <img src="my-logo.png" alt="Kelvin Oteyo Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#socials">Socials</a></li>
+                <li><a href="#seo">SEO</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
     </header>
+
     <section class="hero">
+        <img src="my-logo.png" alt="Kelvin Oteyo Logo" class="logo">
         <h1>Kelvin Oteyo</h1>
         <p>Graphic Designer | Creative Thinker</p>
     </section>
+
     <section class="contact">
         <p>📩 <a href="mailto:oteyikelvin@gmail.com">oteyikelvin@gmail.com</a></p>
     </section>
+
     <section class="portfolio">
-    <h2>My Work</h2>
-    <div class="gallery">
-        <div class="work">
-            <img src="logo-unamed.png" alt="Design 1">
-            <p>Project Name 1</p>
-        </div>
-        <div class="work">
-            <img src="logo-dell.png" alt="Design 2">
-            <p>Project Name 2</p>
-        </div>
-        <div class="work">
-            <img src="my-logo.png" alt="Design 3">
-            <p>Project Name 3</p>
-        </div>
-    </div>
-</section>
-
-<style>
-    .portfolio {
-        margin-top: 50px;
-    }
-    .portfolio h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-    }
-    .gallery {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-    .work {
-        width: 300px;
-    }
-    .work img {
-        width: 100%;
-        border-radius: 8px;
-    }
-    .work p {
-        margin-top: 10px;
-        font-size: 1.1rem;
-    }
-</style>
-    <section id="skills">
-    <div class="skills-container">
-        <img src="my_pic.jpg" alt="Kelvin Oteyo" class="profile-pic">
-        <div class="about-content">
-            <h1>Hi, I'm Kelvin Oteyo</h1>
-            <p>A passionate <span class="highlight">Graphic Designer</span> and <span class="highlight">Creative Thinker</span>, crafting stunning visuals and user-friendly designs. Let’s bring ideas to life!</p>
-            <a href="#projects" class="cta-btn">View My Work</a>
-        </div>
-    </div>
-</section>
-<style>
-    .skills-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.about-content {
-    max-width: 60%;
-}
-
-    #about {
-        text-align: center;
-        padding: 60px 20px;
-        background: linear-gradient(45deg, #111, #222);
-        color: white;
-    }
-    .about-content {
-        max-width: 600px;
-        margin: auto;
-    }
-    .highlight {
-        color: #4CAF50;
-        font-weight: bold;
-    }
-    .cta-btn {
-        display: inline-block;
-        margin-top: 15px;
-        padding: 12px 20px;
-        background: #4CAF50;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: 0.3s;
-    }
-    .cta-btn:hover {
-        background: #45a049;
-    }
-</style>
-
-
-
-
-    <section id="skills">
-    <h2>My Skills</h2>
-    <div class="skill-bar">
-        <span>Graphic Design</span>
-        <div class="progress"><div class="progress-fill" style="width: 90%;"></div></div>
-    </div>
-    <div class="skill-bar">
-        <span>Logo Design</span>
-        <div class="progress"><div class="progress-fill" style="width: 85%;"></div></div>
-    </div>
-    <div class="skill-bar">
-        <span>Branding</span>
-        <div class="progress"><div class="progress-fill" style="width: 80%;"></div></div>
-    </div>
-</section>
-
-<style>
-    #skills {
-        text-align: center;
-        padding: 50px;
-        background: #111;
-        color: white;
-    }
-    .skill-bar {
-        margin: 10px 0;
-    }
-    .progress {
-        width: 80%;
-        max-width: 400px;
-        background: #444;
-        height: 10px;
-        margin: auto;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    .progress-fill {
-        height: 100%;
-        background: #4CAF50;
-    }
-</style>
-
-
-    <section id="resume" class="resume">
-    <h2>Download My Resume</h2>
-    <a href="resume.pdf" download class="btn">Download Resume</a>
-</section>
-
-<style>
-    .resume {
-        text-align: center;
-        margin-top: 50px;
-    }
-    .btn {
-        display: inline-block;
-        background: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-size: 1.2rem;
-        border-radius: 5px;
-        transition: background 0.3s ease;
-    }
-    .btn:hover {
-        background: #45a049;
-    }
-</style>
-   
-    </header>
- 
-    <section class="portfolio" id ="portfolio">
-         <p>Check out my latest design projects.</p>
-        <div class="category">
-            <h2>Logos</h2>
-            <div class="portfolio-item">
-                <img src="logo-dell.png" alt="Logo Design">
-                <h3>Brand Identity Logo</h3>
-                <p>Designed for a startup using Adobe Illustrator.</p>
+        <h2>My Work</h2>
+        <div class="gallery">
+            <div class="work">
+                <img src="logo-unamed.png" alt="Design 1">
+                <p>Project Name 1</p>
+            </div>
+            <div class="work">
+                <img src="logo-dell.png" alt="Design 2">
+                <p>Project Name 2</p>
+            </div>
+            <div class="work">
+                <img src="my-logo.png" alt="Design 3">
+                <p>Project Name 3</p>
             </div>
         </div>
-
-        <div class="category">
-            <h2>Social Media Graphics</h2>
-            <div class="portfolio-item">
-                <img src="logo-unamed.png" alt="Social Media Post">
-                <h3>Instagram Promo Banner</h3>
-                <p>Created for a fashion brand using Photoshop.</p>
-            </div>
-        </div>
-
-        <div class="category">
-            <h2>Web Design</h2>
-            <div class="portfolio-item">
-                <img src="logo-unamed.png" alt="Web Design">
-                <h3>Modern UI/UX Website</h3>
-                <p>Figma-based design for an eCommerce platform.</p>
-            </div>
-        </div>
-
-        <div class="category">
-            <h2>Print Design</h2>
-            <div class="portfolio-item">
-                <img src="logo-unamed.png" alt="Print Design">
-                <h3>Business Card</h3>
-                <p>Designed for a corporate client using Illustrator.</p>
-            </div>
-        </div>
-        <style>
-.category {
-    background-color: #1e1e1e;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.portfolio-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-h3 {
-    margin-top: 10px;
-    font-size: 1.2rem;
-}</style>
-        
     </section>
 
-
-    
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="project-container">
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>A personal website to showcase my graphic design work.</p>
-            <a href="https://kelvin001-oteyo.github.io/k-.o.-graphics-web-examples/" target="_blank">View Project</a>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-bar">
+            <span>Graphic Design</span>
+            <div class="progress"><div class="progress-fill" style="width: 90%;"></div></div>
         </div>
-
-        <div class="project">
-            <h3> Website</h3>
-            <p>Designed and developed a modern website for a high school.</p>
-            <a href="https://kelvin001-oteyo.github.io/k-.o.-graphics-web-examples/" target="_blank">View Project</a>
+        <div class="skill-bar">
+            <span>Logo Design</span>
+            <div class="progress"><div class="progress-fill" style="width: 85%;"></div></div>
         </div>
-
-        <div class="project">
-            <h3>Branding Designs</h3>
-            <p>Created professional logos and branding for businesses.</p>
-            <a href="https://github.com/kelvin001-oteyo/ko-graphics-" target="_blank">View Designs</a>
+        <div class="skill-bar">
+            <span>Branding</span>
+            <div class="progress"><div class="progress-fill" style="width: 80%;"></div></div>
         </div>
-    </div>
-</section>
+    </section>
 
-<style>
-    #projects {
-        text-align: center;
-        padding: 50px;
-        background: #1a1a1a;
-        color: white;
-    }
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-    .project {
-        background: #292929;
-        padding: 20px;
-        border-radius: 8px;
-        width: 300px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .project h3 {
-        color: #4CAF50;
-    }
-    .project a {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 8px 15px;
-        background: #4CAF50;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background 0.3s ease;
-    }
-    .project a:hover {
-        background: #45a049;
-    }
-</style>
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Have a project in mind? Let’s connect!</p>
-    <form  action="https://formspree.io/f/xanqpwok" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+    <section id="resume">
+        <h2>Download My Resume</h2>
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+    </section>
 
-<style>
-    #contact {
-        text-align: center;
-        padding: 50px;
-        background: #111;
-        color: white;
-    }
-    form {
-        max-width: 500px;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-    input, textarea {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        border: none;
-    }
-    button {
-        padding: 10px;
-        background: #4CAF50;
-        color: white;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-    button:hover {
-        background: #45a049;
-    }
-</style>
-
-    <section id="blog">
-    <h2>My Blog</h2>
-    <p>Welcome to my blog! I share insights on graphic design, creativity, and industry trends.</p>
-
-    <div class="blog-container">
-        <article class="blog-post">
-            <img src="images/blog1.jpg" alt="Design Trends">
-            <h3><a href="#">Top Graphic Design Trends in 2025</a></h3>
-            <p>Explore the latest design trends shaping the industry.</p>
-        </article>
-
-        <article class="blog-post">
-            <img src="images/blog2.jpg" alt="Logo Design">
-            <h3><a href="#">The Art of Logo Design: My Creative Process</a></h3>
-            <p>A behind-the-scenes look at how I craft unique logos.</p>
-        </article>
-
-        <article class="blog-post">
-            <img src="images/blog3.jpg" alt="Typography">
-            <h3><a href="#">Mastering Typography: A Guide for Designers</a></h3>
-            <p>Typography isn't just fonts; it's about communication.</p>
-        </article>
-
-        <article class="blog-post">
-            <img src="images/blog4.jpg" alt="Branding Tips">
-            <h3><a href="#">How to Build a Strong Brand Identity</a></h3>
-            <p>Key elements that make a brand stand out.</p>
-        </article>
-
-        <article class="blog-post">
-            <img src="images/blog5.jpg" alt="Social Media Design">
-            <h3><a href="#">Creating Eye-Catching Social Media Graphics</a></h3>
-            <p>Designing content that gets engagement.</p>
-        </article>
-
-        <article class="blog-post">
-            <img src="images/blog6.jpg" alt="Freelance Life">
-            <h3><a href="#">My Journey as a Freelance Graphic Designer</a></h3>
-            <p>Lessons I've learned in freelancing.</p>
-        </article>
-    </div>
-</section>
-    <style>
-    #blog {
-    padding: 50px 20px;
-    background: #121212; /* Dark theme */
-    color: #fff;
-    text-align: center;
-}
-
-.blog-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.blog-post {
-    background: #1e1e1e;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: left;
-    transition: transform 0.3s;
-}
-
-.blog-post img {
-    width: 100%;
-    border-radius: 10px;
-    height: 180px;
-    object-fit: cover;
-}
-
-.blog-post h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-.blog-post a {
-    color: #ff9800;
-    text-decoration: none;
-}
-
-.blog-post a:hover {
-    text-decoration: underline;
-}
-
-.blog-post p {
-    font-size: 14px;
-    color: #ccc;
-}
-
-.blog-post:hover {
-    transform: scale(1.05);
-}
-</style>
-
-
-    <section id="seo">
-  <h2>SEO Expertise</h2>
-  <p>I specialize in improving website visibility and driving organic traffic. Below are some of the SEO strategies I have used to enhance website performance.</p>
-  
-  <div class="seo-example">
-    <h3>1. On-Page SEO Optimization</h3>
-    <p><strong>Project:</strong> Optimized the content and meta tags of a blog to improve keyword targeting.</p>
-    <ul>
-      <li>Focused on high-value keywords for blog posts.</li>
-      <li>Optimized title tags, meta descriptions, and headings.</li>
-      <li>Implemented alt text for all images for better accessibility and ranking.</li>
-    </ul>
-    <p><strong>Result:</strong> Achieved a 25% increase in search engine traffic within 3 months.</p>
-  </div>
-
-  <div class="seo-example">
-    <h3>2. Link Building Campaign</h3>
-    <p><strong>Project:</strong> Built high-quality backlinks for a business website to improve domain authority.</p>
-    <ul>
-      <li>Identified relevant industry websites for guest posts and collaborations.</li>
-      <li>Outreached to influencers and bloggers for backlinks.</li>
-      <li>Created shareable content to naturally attract backlinks.</li>
-    </ul>
-    <p><strong>Result:</strong> Improved domain authority by 15 points and saw a 20% increase in organic traffic.</p>
-  </div>
-
-  <div class="seo-example">
-    <h3>3. Local SEO Optimization</h3>
-    <p><strong>Project:</strong> Optimized a local business website to improve visibility in local search results.</p>
-    <ul>
-      <li>Created and optimized a Google My Business profile.</li>
-      <li>Ensured NAP consistency (Name, Address, Phone Number) across all directories.</li>
-      <li>Added local keywords to content and meta tags to target the local audience.</li>
-    </ul>
-    <p><strong>Result:</strong> Increased local search visibility and foot traffic to the business by 30%.</p>
-  </div>
-</section>
-<style>
-#seo {
-  padding: 20px;
-  background-color: #1a1a1a;
-  color: #fff;
-}
-
-.seo-example {
-  margin-bottom: 20px;
-}
-
-.seo-example h3 {
-  font-size: 1.5em;
-  margin-top: 15px;
-}
-
-.seo-example p, .seo-example ul {
-  font-size: 1.1em;
-  margin-left: 20px;
-}
-    </style>
-
-
-    <section id="socials">
-    <h2>Connect with Me</h2>
-    <div class="social-icons">
-        <a href="https://www.instagram.com/kelvin_oteyo" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
-        </a>
-        <a href="https://www.facebook.com/Kelvin Obaga  (K O. Graphics)" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
-</a>
-         <a href="https://www.linkedin.com/in/Kelvin Obaga  (K O. Graphics)" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
-        </a>
-        <a href="https://twitter.com/kelvin_oteyo" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
-        </a>
-
-    </div>
-</section>
-
-<style>
-    #socials {
-        text-align: center;
-        padding: 50px;
-        background: #111;
-        color: white;
-    }
-    .social-icons {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-    .social-icons a img {
-        width: 40px;
-        height: 40px;
-        transition: transform 0.3s ease;
-    }
-    .social-icons a img:hover {
-        transform: scale(1.2);
-    }
-</style>
-
-    
-
-   
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind? Let’s connect!</p>
+        <form action="https://formspree.io/f/xanqpwok" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 </body>
 </html>
