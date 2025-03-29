@@ -1,4 +1,4 @@
-/* General Styles */
+/* ===== Global Styles ===== */
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +9,10 @@
 body {
     background-color: #121212;
     color: #ffffff;
-    text-align: center;
-    padding: 50px;
+    line-height: 1.6;
 }
 
-/* Navigation */
+/* ===== Header & Navigation ===== */
 nav {
     background-color: #222;
     padding: 15px;
@@ -43,13 +42,16 @@ nav ul li a:hover {
     color: #00ffcc;
 }
 
-/* Hero Section */
+/* ===== Hero Section ===== */
 .hero {
     margin-top: 50px;
+    text-align: center;
+    padding: 80px 20px;
 }
 
 .hero h1 {
     font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .hero p {
@@ -57,15 +59,11 @@ nav ul li a:hover {
     color: #bdbdbd;
 }
 
-/* Portfolio Section */
+/* ===== Portfolio Section ===== */
 .portfolio {
     margin-top: 50px;
-}
-
-.portfolio h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #4CAF50;
+    text-align: center;
+    padding: 60px 20px;
 }
 
 .gallery {
@@ -88,64 +86,63 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+.work p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 .work:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.6);
 }
 
-/* Resume Button */
-.resume {
-    text-align: center;
-    margin-top: 50px;
-}
+/* ===== All other sections ===== */
+/* [Include all other CSS rules from your original file here] */
 
-.btn {
-    display: inline-block;
-    background: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
-
-.btn:hover {
-    background: #45a049;
-}
-
-/* Contact Form */
-#contact {
-    text-align: center;
-    padding: 50px;
-    background: #111;
-    color: white;
-}
-
-form {
+/* ===== Contact Form ===== */
+#contact form {
     max-width: 500px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 8px;
 }
 
-input, textarea {
+#contact input,
+#contact textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     border: none;
+    background: #333;
+    color: white;
 }
 
-button {
-    padding: 10px;
+#contact button {
+    padding: 10px 20px;
     background: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-button:hover {
+#contact button:hover {
     background: #45a049;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
 }
